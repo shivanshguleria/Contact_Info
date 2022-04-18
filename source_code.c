@@ -1,11 +1,11 @@
 #include <stdio.h>
 
-unsigned long long int  phone[10];
+unsigned long long int  phone[10];                    //Initialising array
 
 int main()
 {
     int user,pwd,codes,menu;
-    phone[0] = 4447432558;
+    phone[0] = 4447432558;                          //Giving Array Values
     phone[1] = 4427417000;
     phone[2] = 8056016611;
     phone[3] = 4427453159;
@@ -20,7 +20,7 @@ int main()
 printf("Welcome to Contact Informations\n");
 
 printf("|~~~~~~~~~~~~~~~~~~~~~~~~~|\n");
-printf("|   CONTACTS INFORMATION  |\n");
+printf("|   CONTACTS INFORMATION  |\n");                                                 //MENU INSTRUCTIONS
 printf("|~~~~~~~~~~~~~~~~~~~~~~~~~|\n");
 printf("\n\n");
 printf("|~~~~~~~~~~~~~~~~~~~~~~~~~|\n");
@@ -30,13 +30,13 @@ printf("|--9--ESQ A BLOCK         |\n|--10--ESQ B BLOCK        |\n|~~~~~~~~~~~~~
 
 
 printf("Enter Number Code-- ");
-scanf("%d",&codes);
-switch(codes)
+scanf("%d",&codes);                              //TAKING INPUT
+switch(codes)                                                      
 {
   case 1:
   printf("Phone Number -- %lld\n",phone[0]);
   break;
-  case 2:
+  case 2:                                                        
   printf("Phone Number -- %lld\n",phone[1]);
   break;
   case 3:
@@ -68,7 +68,7 @@ switch(codes)
 printf("Enter Your Options--");
 scanf("%d",&menu);
 if(menu == 1){
-printf("Enter User ID -- ");
+printf("Enter User ID -- ");                                     //LOGIN OPTIONS(under development)
 scanf("%d",&user);
 printf("Password -- ");
 scanf("%d",&pwd);
