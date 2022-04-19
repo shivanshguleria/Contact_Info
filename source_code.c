@@ -1,11 +1,12 @@
 #include <stdio.h>
+#include <conio.h>
 
-unsigned long long int  phone[10];                    //Initialising array
+unsigned long long int  phone[10];
 
-int main()
+void main()
 {
-    int user,pwd,codes,menu;
-    phone[0] = 4447432558;                          //Giving Array Values
+    int user,pwd,codes;
+    phone[0] = 4447432558;
     phone[1] = 4427417000;
     phone[2] = 8056016611;
     phone[3] = 4427453159;
@@ -20,7 +21,7 @@ int main()
 printf("Welcome to Contact Informations\n");
 
 printf("|~~~~~~~~~~~~~~~~~~~~~~~~~|\n");
-printf("|   CONTACTS INFORMATION  |\n");                                                 //MENU INSTRUCTIONS
+printf("|   CONTACTS INFORMATION  |\n");
 printf("|~~~~~~~~~~~~~~~~~~~~~~~~~|\n");
 printf("\n\n");
 printf("|~~~~~~~~~~~~~~~~~~~~~~~~~|\n");
@@ -30,13 +31,13 @@ printf("|--9--ESQ A BLOCK         |\n|--10--ESQ B BLOCK        |\n|~~~~~~~~~~~~~
 
 
 printf("Enter Number Code-- ");
-scanf("%d",&codes);                              //TAKING INPUT
-switch(codes)                                                      
+scanf("%d",&codes);
+switch(codes)
 {
   case 1:
   printf("Phone Number -- %lld\n",phone[0]);
   break;
-  case 2:                                                        
+  case 2:
   printf("Phone Number -- %lld\n",phone[1]);
   break;
   case 3:
@@ -65,7 +66,9 @@ switch(codes)
   break;
 }
 
-printf("BYE BYE");
-return 0;
+printf("Sayonara");
+
+getch();
+
 
 }
