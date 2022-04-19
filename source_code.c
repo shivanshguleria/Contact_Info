@@ -65,21 +65,7 @@ switch(codes)
   break;
 }
 
-printf("Enter Your Options--");
-scanf("%d",&menu);
-if(menu == 1){
-printf("Enter User ID -- ");                                     //LOGIN OPTIONS(under development)
-scanf("%d",&user);
-printf("Password -- ");
-scanf("%d",&pwd);
-
-if(user == 123 && pwd == 001)
-{printf("Login Successfull\n");
-
-}
-else{printf("Login Failed");};
-}
-else printf("Bye-Bye");
+printf("BYE BYE");
 return 0;
 
 }
