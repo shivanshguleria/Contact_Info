@@ -14,10 +14,10 @@ Entering codes
 Exiting program
 ![exiting program.png](https://github.com/ShivanshGuleria/Contact_Info/blob/37ac644a6ae8b01bfcc8eb8ec6be5343cc85f5e4/.images/exiting%20program.png)
 
-Powered By Slayer
+Powered By [Slayer](https://i.ibb.co/LSBSqnt/slayer.png)
 
 
 
 
 
- 
+
