@@ -5,7 +5,15 @@ C program to print phone number from respected input.
 
 ## Output
 
-![1.png](https://github.com/ShivanshGuleria/Contact_Info/blob/a99efdb3709787416afd6c6d99cc32dd4214b7ef/.images/1.png)
+Menu
+![start.png](https://github.com/ShivanshGuleria/Contact_Info/blob/37ac644a6ae8b01bfcc8eb8ec6be5343cc85f5e4/.images/start.png)
+
+Entering codes
+![enteringcode.png](https://github.com/ShivanshGuleria/Contact_Info/blob/37ac644a6ae8b01bfcc8eb8ec6be5343cc85f5e4/.images/enteringcode.png)
+
+Exiting program
+![exiting program.png](https://github.com/ShivanshGuleria/Contact_Info/blob/37ac644a6ae8b01bfcc8eb8ec6be5343cc85f5e4/.images/exiting%20program.png)
+
 
 
 
