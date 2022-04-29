@@ -1,7 +1,7 @@
 # Contact_Info        
 ![standard-readme compliant](https://img.shields.io/badge/Contact__info-Standard-brightgreen)
 
-Simple C program to print phone number corresponding to different codes.
+Simple C program to display phone number corresponding to codes given.
 
 ## Output
 
