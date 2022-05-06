@@ -5,7 +5,7 @@
 void main()
 {
     unsigned long long int phone[14];
-    int user,pwd,codes;
+    int codes;
 
     phone[0] = 4447432558;
     phone[1] = 4427417000;
